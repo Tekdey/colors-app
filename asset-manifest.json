@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/colors-app/static/css/main.c385cfba.css",
+    "main.js": "/colors-app/static/js/main.ea5af604.js",
+    "index.html": "/colors-app/index.html",
+    "main.c385cfba.css.map": "/colors-app/static/css/main.c385cfba.css.map",
+    "main.ea5af604.js.map": "/colors-app/static/js/main.ea5af604.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c385cfba.css",
+    "static/js/main.ea5af604.js"
+  ]
+}
