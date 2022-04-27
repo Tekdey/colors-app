@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    html{
+        @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+    }
+    body{
+        @apply cursor-none overflow-hidden
+    }
+}
+
+@layer components{
+    .text-hex{
+        @apply text-white drop-shadow-lg font-bold text-2xl
+    }
+    .color-container{
+        @apply  w-full h-1/5 md:h-full md:w-1/5 flex justify-center items-end pb-10 
+    }
+}
