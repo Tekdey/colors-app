@@ -5,7 +5,7 @@ import { randomEmoji } from "../utils/RandomEmoji";
 
 const Title = ({randomHexColors}) => {
   return <motion.h1
-  className="text-bold text-white w-full drop-shadow-lg flex justify-center lg:text-8xl sm:text-7xl text-3xl "
+  className="text-bold text-white w-full drop-shadow-lg flex justify-center lg:text-8xl sm:text-6xl text-4xl "
   initial={{ scale: 0 }}
   animate={{ scale: 1 }}
 >

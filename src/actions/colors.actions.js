@@ -11,3 +11,17 @@ export const refresh = () => (dispatch) => {
     payload: newArray,
   });
 };
+
+export const colorSelection = (color) => (dispatch) => {
+  dispatch({
+    type: "SELECT",
+    payload: color,
+  });
+};
+
+export const deleteColor = (color) => (dispatch) => {
+  dispatch({
+    type: "DELETE",
+    payload: color,
+  });
+};

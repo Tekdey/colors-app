@@ -1,4 +1,4 @@
-const colorsReducer = (state = [], action) => {
+const refreshReducer = (state = [], action) => {
   switch (action.type) {
     case "REFRESH":
       return action.payload;
@@ -8,4 +8,4 @@ const colorsReducer = (state = [], action) => {
   }
 };
 
-export default colorsReducer;
+export default refreshReducer;

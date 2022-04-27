@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base{
     html{
         @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
@@ -19,4 +18,15 @@
     .color-container{
         @apply  w-full h-1/5 md:h-full md:w-1/5 flex justify-center items-end pb-10 
     }
+}
+
+::-webkit-scrollbar {
+       width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(206, 33, 33);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(155, 34, 34);
 }

@@ -11,7 +11,8 @@ const Cursor = () => {
     }, [])
 
 
-  return <div className=" h-10 w-10 absolute rounded-full border z-10" id="cursor"></div>;
+  return <div className=" h-4 w-4 absolute rounded-full border-4 border-black z-50 shadow-2xl mix-blend-normal" id="cursor">
+  </div>;
 };
 
 export default Cursor;

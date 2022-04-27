@@ -1,7 +1,7 @@
 // toastify
 
 export const toastOptions = {
-  position: "top-left",
+  position: "top-right",
   autoClose: 2000,
   hideProgressBar: false,
   closeOnClick: true,

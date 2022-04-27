@@ -1,6 +1,8 @@
-import { applyMiddleware } from "redux";
-import refresh from "./colors.reducers";
+import { combineReducers } from "redux";
+import refresh from "./refreshColors.reducers";
+import select from "./selectColors.reducers";
 
-export default applyMiddleware({
+export default combineReducers({
+  select,
   refresh,
 });

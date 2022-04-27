@@ -3,8 +3,13 @@ import { motion } from "framer-motion";
 import { containerVariants, toastOptions } from "../constant";
 import { copyColors } from "../utils/CopyColors";
 import { toast } from "react-toastify";
+import { useDispatch } from "react-redux";
+import { colorSelection } from "../actions/colors.actions";
 
 const ContainerColor = ({randomHexColors, nb, delay}) => {
+
+    const dispatch = useDispatch()
+
   return  (
     <motion.div
         className="color-container"
@@ -15,6 +20,7 @@ const ContainerColor = ({randomHexColors, nb, delay}) => {
         style={{
             backgroundColor: randomHexColors[nb],
         }}
+        onClick={() => dispatch(colorSelection(randomHexColors[nb]))}
         >
         <span
             className="text-hex"
