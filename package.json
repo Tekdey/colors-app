@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Tekdey.github.io/colors-app",
+  "homepage": "https://Tekdey.github.io/colors-app",
   "name": "colors-app",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +18,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

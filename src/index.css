@@ -7,7 +7,7 @@
         @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
     }
     body{
-        @apply cursor-none overflow-hidden
+        @apply overflow-hidden
     }
 }
 

@@ -1,6 +1,6 @@
 import { randomColors } from "../utils/RandomColors";
 
-export const refresh = () => (dispatch) => {
+export const refreshColors = () => (dispatch) => {
   let newArray = [];
 
   for (let i = 0; i < 5; i++) {
