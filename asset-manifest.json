@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/colors-app/static/css/main.c385cfba.css",
-    "main.js": "/colors-app/static/js/main.ea5af604.js",
+    "main.css": "/colors-app/static/css/main.823e0c84.css",
+    "main.js": "/colors-app/static/js/main.bffdd6f8.js",
     "index.html": "/colors-app/index.html",
-    "main.c385cfba.css.map": "/colors-app/static/css/main.c385cfba.css.map",
-    "main.ea5af604.js.map": "/colors-app/static/js/main.ea5af604.js.map"
+    "static/media/menu.svg": "/colors-app/static/media/menu.e0beefaf22ae34cd5099095e0c692679.svg",
+    "main.823e0c84.css.map": "/colors-app/static/css/main.823e0c84.css.map",
+    "main.bffdd6f8.js.map": "/colors-app/static/js/main.bffdd6f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c385cfba.css",
-    "static/js/main.ea5af604.js"
+    "static/css/main.823e0c84.css",
+    "static/js/main.bffdd6f8.js"
   ]
 }
