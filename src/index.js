@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
@@ -9,9 +9,10 @@ import RootReducer from "./reducers/index";
 
 const Store = createStore(RootReducer, compose(applyMiddleware(thunk)));
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
   <Provider store={Store}>
     <App />
-  </Provider>,
-  document.getElementById("root")
+  </Provider>
 );
